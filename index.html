@@ -1,47 +1,74 @@
-<!DOCTYPE html> 
-<html lang="pt-BR"> 
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro do Usuário DE ONG Recicle conhecimento</title>//   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Recicle Conhecimento</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Usuário da ONG</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="projeto.html">Projeto</a></li>
-                <li><a href="Cadastro.html">Cadastro</a></li>
-            </ul>
-        </nav>
+<body class="index">
 
-    </header>
-    <main>
-        <section>
-            <h2>Quem somos</h2>
-            <p>Somos uma organização sem fins lucrativos.</p>
-            <img src="imagens/crianças.jpg" alt="Ajudando nosso planeta a ser Sustentável e Nossa Sociedade a Evoluir "
-         </section>
-<section>
-     <h2>Nosso Objetivo</h2>
-      <p>Recebemos Doações de computadores para ajudar a comunidade e levar a Tecnologia para pessoas Escolas e comunidades carentes, junte-se a nós.</p>
 
-</section>
+  <header>
+    <nav class="navbar">
+         <a href="index.html" class="logo">
+    <img src="img/recicle.gif" alt="Logo Recicle Conhecimento" class="logo-img">
+</a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <ul id="navMenu" class="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="projeto.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section>
-    <h2>Onde nos Encontramos</h2>
-        <address>
-            <p>Endereço: Rua das bandeiras,545 -Bairro Joao brasil -São paulo/SP</p>
-            <p>Telefone: (11)99939-7949</p>
-            <p>Email: Ongcomputadoresreciclaveis@outlook.com</p>
-        </address>
 
+  <section class="hero hero-index">
+    <div class="hero-content">
+      <h2>Capacite e ajude as pessoas</h2>
+      <p>Somos uma organização dedicada à inclusão social e ao atendimento de famílias. Junte-se a nós e faça a diferença!</p>
+      <a href="cadastro.html" class="btn-primary">Quero Ser Voluntário ou Doador</a>
+    </div>
+  </section>
+
+
+
+  <main>
+    <section class="quem-somos">
+        <h2>Quem somos</h2>
+             <p>Somos uma organização sem fins lucrativos, visando ajudar pessoas e comunidades carentes através de doações de hardwares e periféricos.</p>
+                 <figure class="img-container">
+                     <img src="img/criancas-da-escola-usando-o-computador-na-sala-de-aula.jpg" 
+                alt="Ajudando nosso planeta a ser sustentável e nossa sociedade a evoluir">
+         </figure>
     </section>
-    </main>
 
-        <footer>
-            <p>&copy;2025 Recicle Conhecimento</p>
-        </footer>
+    <section class="objetivo">
+      <h2>Nosso Objetivo</h2>
+      <p>Recebemos doações de computadores para ajudar comunidades e levar tecnologia para pessoas, escolas e projetos sociais. Junte-se a nós!</p>
+    </section>
+
+
+    <section class="contato">
+      <h2>Onde nos Encontrar</h2>
+      <address>
+        <p>Rua das Bandeiras, 545 - Bairro João Brasil - São Paulo/SP</p>
+        <p>Telefone: (11) 99939-7949</p>
+        <p>Email: <a href="mailto:Ongcomputadoresreciclaveis@outlook.com">Ongcomputadoresreciclaveis@outlook.com</a></p>
+      </address>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Recicle Conhecimento Todos os direitos reservados</p>
+    <p>Desenvolvido por Samuel Oliveira</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+  
 </body>
 </html>
