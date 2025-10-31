@@ -1,5 +1,7 @@
-Esse é um projeto da faculdade em qual Elaborei um site em Html ,css e Java Script  destinado a uma ONG Sustentavel com foco na Sociedade e tecnologia 
+Esse é um projeto da faculdade em qual Elaborei um site em Html ,CSS e Java Script  destinado a uma ONG Sustentavel com foco na Sociedade e tecnologia e foi muito bacana 
 Basicamente é uma pagina inicial para cadastro de voluntarios e doadores  e foi dividido em  etapas.
+
+link da apresentação tecnica :https://www.linkedin.com/posts/samuel-oliveira10_trabalhoacadaeamico-inclusaetodigital-tecnologia-ugcPost-7371186910045601792-F1hL?utm_source=share&utm_medium=member_android&rcm=ACoAAEHHDugBWvUXiFqAVTyzxzzLeb4fRBDhUyQ
 
 
 Todas as etapas e atualizações estarão documentadas a partir da **Versão 01 "V01"**.
