@@ -23,7 +23,6 @@ Todas as etapas e atualizações estarão documentadas a partir da **Versão 01 
 
 ## [V04]
 - Criação do arquivo `script.js` com funcionalidades:
-  - Funções de interação.
   - Tabela de cadastro de voluntários.
   - Elementos visuais dinâmicos para melhorar a experiência do usuário.
 
