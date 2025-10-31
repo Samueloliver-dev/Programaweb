@@ -4,3 +4,11 @@ Esse é um projeto do qual criei um site em Html destinado a uma ONG Sustentavel
 
 ATENÇÃO
 Todas as etapas e atualizações estarão atualizadas apartir da  Versão 01 "V01".
+
+Atualização v02
+Projeto.html
+cadastro.html
+
+Atualização V03
+Style.css foi conectado e implementei algumas mudanças visuais para melhoria e acessibilidade 
+
